@@ -1,0 +1,39 @@
+body{
+    background-color: pink;
+    font-size: 20px;
+}
+.box{
+    width: 600px;
+    margin: 0 auto;
+}
+h1:hover{
+    color: black;
+}
+.box2{
+    width: 450px;
+    margin: 0 auto;
+}
+li{
+    font-size: 1.4em;
+    padding-top: 10px;
+}
+.quote{
+    text-align: center;
+    color: white;
+}
+.quote2{
+    font-size: 2.5em;
+    text-align: center;
+    color: white;
+}
+img{
+    width: 200px;
+    margin-left: 200px;
+    margin-right: auto;
+}
+.end{
+    text-align: center;
+    font-size: 1.1em;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
