@@ -1,18 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
 }
 body{
     background-color: #5651E6;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
 }
 header{
-    background-color: white;
+    background-color: #5651E6;
+}
+main section img {
+    box-sizing: border-box;
+}
+#logo-link{
+    padding-top: 5px;
 }
 .logo{
     width: 80px;
+    border-radius: 50%;
+    padding-bottom: 35px;
+}
+.home-grid{
+    font-family: Courier, Monospace;
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
@@ -22,39 +41,65 @@ nav a{
     background-color: #D4AC0D;
     color: white;
     text-decoration: none;
+    font-family: "Lucida Console","Lucida", "Courier New";
+    padding: 35px;
 }
 nav a:hover{
     background-color: #5651E6;
 }
 .home-title{
     color: white;
+    font-family: "Lucida Console","Lucida", "Courier New";
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: white;
+}
+.card-img{
+    border: 10px solid #D4AC0D;
+}
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
 }
 .book{
     background-color: #D4AC0D;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join{
-    background-color: white;
-    color: #5651E6;
+    background-color: #5651E6;
+    color: white;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: white;
     color: #D4AC0D;
 }
 .join:hover{
-    background-color: #5651E6;
-    color: white;
+    background-color: white;
+    color: #5651E6;
 }
 #hero-msg h1{
     text-align: center;
+    font-family: "Lucida Console","Lucida", "Courier New";
 }
 #hero-msg h4{
     text-align: center;
+    font-family: "Lucida Console","Lucida", "Courier New";
 }
 .button-box{
     text-align: center;
@@ -68,24 +113,35 @@ main section{
 }
 .msg{
     background-color: #A6995D;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color: white;
+    font-family: "Lucida Console","Lucida", "Courier New";
 }
 .msg p{
     color: white;
+    font-family: Courier, Monospace;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer{
     background-color: #A6995D;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p{
     font-size: 1.2em;
+    font-family: Courier, Monospace;
 }
 footer a{
     background-color: #5651E6;
     color: white;
     text-decoration: none;
+    font-family: Courier, Monospace;
+    
 }
 footer a:hover{
     background-color: white;
@@ -93,4 +149,7 @@ footer a:hover{
 }
 footer p a:hover{
     text-decoration: underline;
+}
+footer .social img{
+    padding-top: 15px;
 }
