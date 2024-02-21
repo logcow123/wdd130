@@ -14,12 +14,16 @@ h2{
 }
 header{
     background-color: #5651E6;
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 main section img {
     box-sizing: border-box;
 }
 #logo-link{
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 .logo{
     width: 80px;
@@ -37,6 +41,10 @@ main section img {
     padding-top: 35px;
     width: 100%;
 }
+nav{
+    display: flex;
+    justify-content: space-around;
+}
 nav a{
     text-align: center;
     background-color: #D4AC0D;
@@ -46,7 +54,8 @@ nav a{
     padding: 35px;
 }
 nav a:hover{
-    background-color: #5651E6;
+    background-color: white;
+    color: #D4AC0D;
 }
 .home-title{
     color: white;
@@ -93,6 +102,21 @@ h4{
 .join:hover{
     background-color: white;
     color: #5651E6;
+}
+#hero{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
 }
 #hero-msg h1{
     text-align: center;
