@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+}
+.card{
+    width: 250px;
+    margin: 0 auto;
+    background-color: white;
+}
+.headerimage{
+    width: 100%;
+}
+.awesomearticle{
+    padding: 10%;
+    text-align: center;
+}
+.article{
+    text-align: center;
+}
+.text{
+    margin: 0;
+}
+.dateposted{
+    padding-top: 20px;
+    color: darkslateblue;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: darkslateblue;
+}
+.footborder{
+    border-right: solid 1px;
+    border-color: white;
+}
+.footertext{
+    text-align: center;
+    color: white;
+}
+.bigtextfoot{
+    margin: 0;
+    padding-top: 20px;
+}
+.smalltextfoot{
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: .7em;
+}
+.bordertop{
+    border-radius: 20px 20px 0px 0px;
+}
+.borderbottom{
+    border-radius: 0px 0px 20px 20px;
+}
+.border{
+    border-radius: 21px;
+}
+sub{
+    vertical-align: super;
+    font-size: .5em;
+    margin: -5px;
+}
+
