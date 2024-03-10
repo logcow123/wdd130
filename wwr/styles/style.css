@@ -269,3 +269,26 @@ footer .social img{
     transform: translate(-50%, -50%);
     font-size: 5em;
   }
+  .faqheadingtext{
+    color: white;
+    padding-left: 5%;
+    padding-top: 50px;
+    text-decoration: underline;
+  }
+  .faqmainchunk{
+    padding-left: 10%;
+    text-align: left;
+    font-size: 2em;
+    width: 80%;
+    color: white;
+  }
+  .faqmainchunk img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 5px 5px 10px darkslategray;
+  }
+  .faqmainchunk p{
+    background-color: #D4AC0D;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+  }
